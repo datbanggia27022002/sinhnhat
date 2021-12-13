@@ -2,6 +2,11 @@ var star_num = 75;
 var $container = $(".container");
 var $containerWidth = $container.width();
 var $containerHeight = $container.height();
+var sound=document.querySelector("._sound");
+
+function soundplay(){
+    sound.play();
+}
 
 for (var i = 0; i < star_num; i++) {
     var star = $('<div class="particle_star"></div>');
